@@ -19,8 +19,7 @@
 }
 
 - (void)viewDidAppear:(BOOL)animated{
-    // NSString *url = @"https://m.naver.com";
-    NSString *url = @"http://172.10.12.49:8080/UIWebView_Test/UIWebView_Test.html";
+    NSString *url = @"https://m.naver.com";
     
     NSURLRequest *request = [NSURLRequest requestWithURL : [NSURL URLWithString:url]];
     [_webView loadRequest:request];
